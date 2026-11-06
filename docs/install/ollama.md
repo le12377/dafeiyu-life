@@ -227,8 +227,8 @@ Get-Process -Name 'ollama*' -ErrorAction SilentlyContinue | Stop-Process -Force
 
 | 索引 | 大小 | 维度 | 向量数 |
 |---|---|---|---|
-| `livingmemory.index` | 280.6 KB | 1024 | 70 |
-| `livingmemory_graph.index` | 248.6 KB | 1024 | 62 |
+| `livingmemory.index` | 284.6 KB | 1024 | **71** |
+| `livingmemory_graph.index` | 252.6 KB | 1024 | **63** |
 
 维度 1024、条数分别对得上 `documents` 71 篇和图谱文档 63 篇。`document_vector_provider_fingerprint` 反解出来就是 `大肥鱼记忆-本机` + `bge-m3` + 1024，链路完整。
 
@@ -258,7 +258,7 @@ ollama pull bge-m3
 
 1.2 GB，拉一次就行，之后离线可用。`ollama list` 能看到它。
 
-容量参考：模型 1.2GB + 检索时约 1.4GB 内存。九天 71 篇的规模，索引文件才 280KB，存储完全不是瓶颈。
+容量参考：模型 1.2GB + 检索时约 1.4GB 内存。九天 71 篇的规模，索引文件才 284.6KB，存储完全不是瓶颈。
 
 ---
 

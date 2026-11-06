@@ -18,7 +18,7 @@
 | **视频之外自己加的东西** | **本文** ↓ |
 | **每一步的详细命令与踩坑** | [docs/install/README.md](docs/install/README.md) |
 
-视频停在「能聊、会记、有表情包、有语音」。这份 README 记的是之后又走了多远。
+视频停在「能聊、会记、有表情包、有语音」——下面记的是之后又多走了哪些路。
 
 ---
 
@@ -73,7 +73,7 @@
 | `dafeiyu_clean` v0.1.0 | 泽轩604（视频作者） | 模型漏出内部标签（`system_reminder`、DSML 工具调用标记） |
 | `dafeiyu_signature` v0.1.3 | 泽轩604 | 让她自己改 QQ 个性签名，一天最多自己改两次 |
 
-三个是 `<SELF>` 写的，两个是原作者写的。源码都在 [config/custom-plugins/](config/custom-plugins/)。
+前三个是本人写的，后两个是原视频作者写的。源码都在 [config/custom-plugins/](config/custom-plugins/)。
 
 **逐个说明** → [docs/plugins/README.md](docs/plugins/README.md)
 
@@ -93,7 +93,7 @@
 
 ### 5. 人格：从配置包版本改写成 3451 字
 
-视频的配置包里自带一版人格。本机这份被重写过，现在是 **3451 字**（脱敏前 3451 字），分 10 段：
+视频的配置包里自带一版人格。本机这份被重写过，现在是 **3451 字**，分 10 段：
 
 ```
 【你是谁】【你是什么样的人】【你和主人】【你自己的一天】【上网】
@@ -110,7 +110,7 @@
 
 ### 6. 白名单：视频说只填大号，本机放了两个访客
 
-视频第 7 章说白名单**只填大号**。本机除了你还放了两个访客号（档案里记作 `<GUEST-A>` `<GUEST-B>`），九天里他们说了 **45 句**。
+视频第 7 章说白名单**只填大号**。本机除了你还放了两个访客号（档案里记作 `<GUEST-A>` `<GUEST-B>`），九天里这两个访客一共发了 **45 条消息**。
 
 ### 7. 电脑权限：视频说默认全关，本机改成分级
 
@@ -269,11 +269,11 @@ AstrBot 侧配在 `mcp_server.json`：
 | 11-05 | 148 | 144 | 0 | 163 | 30,228 | 20 | 17 |
 | 11-06 | 35 | 34 | 1 | 42 | 13,184 | 9 | 2 |
 
-九天合计：**1,260** 次大模型调用，3494 万输入 token，672 万缓存命中，20.8 万输出。
+九天合计：**1,260** 次大模型调用，3,494 万输入 token，672 万缓存命中，20.8 万输出。
 
 完整逐日明细（含心情分布）→ [stats/daily_timeline.csv](stats/daily_timeline.csv)
 
-**这些之后又加的东西**：
+**她的记忆与情绪状态**（截至 11-06 22:00）：
 
 | 项 | 量 |
 |---|---|
@@ -325,8 +325,8 @@ AstrBot 4.29.4（Python 3.12.16）
 | **按视频走一遍** | [docs/setup.md](docs/setup.md) |
 | 装 AstrBot / 三组件 / 实例 | [docs/install/astrbot.md](docs/install/astrbot.md) |
 | 装 NapCat / 连 QQ | [docs/install/napcat.md](docs/install/napcat.md) |
-| 装本地语音（视频之外的替换） | [docs/install/tts.md](docs/install/tts.md) |
-| 装本地生图（视频之外新增） | [docs/install/image.md](docs/install/image.md) |
+| 装本地语音 | [docs/install/tts.md](docs/install/tts.md) |
+| 装本地生图 | [docs/install/image.md](docs/install/image.md) |
 | 装本地嵌入模型 | [docs/install/ollama.md](docs/install/ollama.md) |
 | 接入 Obsidian（第二大脑，Local REST API / MCP） | [docs/install/obsidian.md](docs/install/obsidian.md) |
 | 插件都是干什么的 | [docs/plugins/README.md](docs/plugins/README.md) |
@@ -372,7 +372,7 @@ AstrBot 4.29.4（Python 3.12.16）
 | 扫描 | `tools/secret_scan.py` 在提交前拿真实值逐字反查全部受控文件，命中就报错 |
 | 隔离 | 真实值只存在 `tools/secrets.local.json`，该文件被 `.gitignore` 排除，从未进过仓库 |
 
-**仓库里没有任何真实值。** 聊天原文、记忆条目、数据库文件也都没有——只公开配置与统计。
+**除了主人号，仓库里没有别的真实值。** 密钥、访客账号、本机路径全部打码；聊天原文、记忆条目、数据库文件也都没有公开——只公开配置与统计。
 
 ### 如果这是你本机的档案
 
@@ -381,7 +381,7 @@ AstrBot 4.29.4（Python 3.12.16）
 ## 复跑统计
 
 ```powershell
-python tools\stats.py            # 重算 stats/
+python tools\stats.py            # 重算统计
 python tools\sanitize_export.py  # 重新导出 config/
 python tools\secret_scan.py      # 发布前扫描
 ```

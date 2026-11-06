@@ -73,7 +73,7 @@
 | `dafeiyu_clean` v0.1.0 | 泽轩604（视频作者） | 模型漏出内部标签（`system_reminder`、DSML 工具调用标记） |
 | `dafeiyu_signature` v0.1.3 | 泽轩604 | 让她自己改 QQ 个性签名，一天最多自己改两次 |
 
-三个是你写的，两个是原作者写的。源码都在 [config/custom-plugins/](config/custom-plugins/)。
+三个是 `<SELF>` 写的，两个是原作者写的。源码都在 [config/custom-plugins/](config/custom-plugins/)。
 
 **逐个说明** → [docs/plugins/README.md](docs/plugins/README.md)
 
@@ -91,9 +91,9 @@
 
 多出来的官方包是后来自己加的。另有 `auto_collect_inbox/` 3 张待审核。
 
-### 5. 人格：从配置包版本改写成 3451 字
+### 5. 人格：从配置包版本改写成 3444 字
 
-视频的配置包里自带一版人格。本机这份被重写过，现在是 **3451 字**，分 10 段：
+视频的配置包里自带一版人格。本机这份被重写过，现在是 **3444 字**（脱敏前 3451 字），分 10 段：
 
 ```
 【你是谁】【你是什么样的人】【你和主人】【你自己的一天】【上网】
@@ -156,7 +156,9 @@
         图谱路（FTS5 + 向量） ┘
 ```
 
-Ollama 是这条链上第 5 步（算向量）的服务，和 AstrBot、NapCat、ComfyUI 一样属于常驻基础设施。安装器会注册开机自启，正常在托盘里就行。---
+Ollama 是这条链上第 5 步（算向量）的服务，和 AstrBot、NapCat、ComfyUI 一样属于常驻基础设施。安装器会注册开机自启，正常在托盘里就行。
+
+---
 
 ### 10. 第二大脑：接上 Obsidian
 
@@ -326,8 +328,7 @@ AstrBot 4.29.4（Python 3.12.16）
 | 装本地语音（视频之外的替换） | [docs/install/tts.md](docs/install/tts.md) |
 | 装本地生图（视频之外新增） | [docs/install/image.md](docs/install/image.md) |
 | 装本地嵌入模型 | [docs/install/ollama.md](docs/install/ollama.md) |
-| 接入 Obsidian（第二大脑） | [docs/install/obsidian.md](docs/install/obsidian.md) |
-| 接入 Obsidian（Local REST API / MCP） | [docs/install/obsidian.md](docs/install/obsidian.md) |
+| 接入 Obsidian（第二大脑，Local REST API / MCP） | [docs/install/obsidian.md](docs/install/obsidian.md) |
 | 插件都是干什么的 | [docs/plugins/README.md](docs/plugins/README.md) |
 | 她的声音怎么做的 | [docs/tts/README.md](docs/tts/README.md) |
 | 图怎么画的 | [docs/image/README.md](docs/image/README.md) |

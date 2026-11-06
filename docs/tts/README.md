@@ -6,8 +6,8 @@
 
 | 组件 | 版本 / 大小 | 位置 |
 |---|---|---|
-| `breeze-server.exe` | 2.7 | `<BREEZE_ROOT>\bin\` |
-| `breeze-tts-2-q8_0.gguf` | 3.57 GB | `<BREEZE_ROOT>\models\` |
+| `breeze-server.exe` | v0.1.3 | `<BREEZE_ROOT>\bin\` |
+| `breeze-tts-2-q8_0.gguf` | 3.32 GB | `<BREEZE_ROOT>\models\` |
 | 音色 `dafeiyu.breeze` | 52 帧 / 4.16 秒 | `<BREEZE_ROOT>\voices\` |
 
 服务监听 **127.0.0.1:8137**，对外提供 OpenAI 兼容接口。启动脚本：

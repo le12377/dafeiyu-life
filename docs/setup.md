@@ -28,7 +28,7 @@
 
 | 项 | 值 |
 |---|---|
-| 安装位置 | `<ASTRBOT_INSTALL>`（视频说默认即可，本机装在了 E 盘） |
+| 安装位置 | `<ASTRBOT_INSTALL>` —— 视频说用默认即可，本机改到了 E 盘 |
 | 启动器 | `astrbot-launcher.exe` |
 | 实例版本 | **v4.29.4** |
 | 三个组件 | Python **3.10.22** + **3.12.16**、Node **v26.13.0**、uv **0.13.6** |
@@ -306,7 +306,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 
 | 项 | 值 |
 |---|---|
-| 人格 | **3451 字**，全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
+| 人格 | **3444 字**（脱敏前 3451），全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
 | 表情包 | 视频说两套 157 + 174，本机实际 **3 包 763 张**（多装了官方包 410 张） |
 | 静默时段 | 凌晨 **1–7 点**不主动（与视频一致） |
 | 语音 | **换成了本机 Breeze**，不是豆包（视频之外的选择） |
@@ -372,7 +372,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 | 记忆插件 | LivingMemory **2.8.2** |
 | 记忆量 | 71 篇情景记忆、295 条原子、572 个节点、2065 条边 |
 
-本机这套**完整链路是通的**：两个 FAISS 索引都在（`livingmemory.index` 1024 维 70 条、`livingmemory_graph.index` 1024 维 62 条），用 `document_vector_provider_fingerprint` 反解确认是 `大肥鱼记忆-本机`（bge-m3）算的。Ollama 是链路第 5 步的服务，和 AstrBot/NapCat/ComfyUI 一样常驻后台，安装器会注册开机自启。
+本机这套**完整链路是通的**：两个 FAISS 索引都在（`livingmemory.index` 1024 维 71 条、`livingmemory_graph.index` 1024 维 63 条），用 `document_vector_provider_fingerprint` 反解确认是 `大肥鱼记忆-本机`（bge-m3）算的。Ollama 是链路第 5 步的服务，和 AstrBot/NapCat/ComfyUI 一样常驻后台，安装器会注册开机自启。
 
 情景记忆在 11-05 和 11-06 白天停过两天，但 **11-06 20:55 又写了一篇**（重要度 0.78），索引同步从 70 涨到 71，说明链路完整。详见 [memory.md](memory.md) 第 4 节。
 
@@ -450,7 +450,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 
 视频的十章到此结束。它停在「能聊、会记、有表情包、有语音」。
 
-这台机器后来又在上面加了不少东西 —— 本地语音换掉了豆包、加了本地生图、写了 5 个补丁插件、把表情包扩到 763 张、把人格从配置包版本改写成 3451 字。这些**都不在视频里**，全部写在：
+这台机器后来又在上面加了不少东西 —— 本地语音换掉了豆包、加了本地生图、写了 5 个补丁插件、把表情包扩到 763 张、把人格从配置包版本改写成 3444 字。这些**都不在视频里**，全部写在：
 
 👉 [../README.md](../README.md)
 

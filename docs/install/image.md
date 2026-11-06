@@ -66,7 +66,7 @@ Desktop 版默认会把用户数据放 `%APPDATA%\ComfyUI`，把程序放 `%LOCA
 
 ```yaml
 comfyui_shared:
-    base_path: E:/Comfy-Desktop/ComfyUI-Shared/
+    base_path: <COMFY_ROOT>/ComfyUI-Shared/
     diffusion_models: models/diffusion_models
     text_encoders: models/text_encoders
     vae: models/vae

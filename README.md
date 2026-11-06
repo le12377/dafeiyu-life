@@ -14,7 +14,7 @@
 
 | 看什么 | 去哪 |
 |---|---|
-| **游戏原视频教程那十章** | [docs/setup.md](docs/setup.md) —— 装 AstrBot、装 NapCat、申请 key、建机器人、绑模型、连 QQ、设防、导配置包、装记忆、AI 帮手 |
+| **原视频教程的十章** | [docs/setup.md](docs/setup.md) —— 装 AstrBot、装 NapCat、申请 key、建机器人、绑模型、连 QQ、设防、导配置包、装记忆、AI 帮手 |
 | **视频之外自己加的东西** | **本文** ↓ |
 | **每一步的详细命令与踩坑** | [docs/install/README.md](docs/install/README.md) |
 

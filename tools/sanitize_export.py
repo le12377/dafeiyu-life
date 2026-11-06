@@ -11,7 +11,7 @@
   5. 聊天原文一律不导出（只公开配置与统计）
 
 用法：python sanitize_export.py [--owner-alias]
-  主人 QQ 号默认替换为 ###（无需额外开关）
+  主人 QQ 号保留原文，不做替换
 """
 import json, os, io, re, sqlite3, sys
 
@@ -149,8 +149,7 @@ def scrub_text(s):
     s = s.replace(BOT_QQ, '<BOT_QQ>')
     for q, alias in GUESTS.items():
         s = s.replace(q, alias)
-    # 主人号默认就替换（仓库约定用 ### 表示）
-    s = s.replace(OWNER, '###')
+    # 主人号按用户要求保留原文（公开档案里作为锚点）
     for path, alias in PATH_MAP:
         s = s.replace(path.replace('\\', '\\\\'), alias)
         s = s.replace(path, alias)

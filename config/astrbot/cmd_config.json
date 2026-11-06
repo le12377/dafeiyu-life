@@ -11,7 +11,7 @@
     "forward_threshold": 1500,
     "enable_id_white_list": true,
     "id_whitelist": [
-      "大肥鱼:FriendMessage:###",
+      "大肥鱼:FriendMessage:2260471619",
       "大肥鱼:FriendMessage:<GUEST-A>",
       "大肥鱼:FriendMessage:<GUEST-B>"
     ],
@@ -356,7 +356,7 @@
       "method": "possibility_reply",
       "possibility_reply": 0.65,
       "whitelist": [
-        "大肥鱼:FriendMessage:###"
+        "大肥鱼:FriendMessage:2260471619"
       ]
     }
   },
@@ -374,7 +374,7 @@
     }
   },
   "admins_id": [
-    "###"
+    "2260471619"
   ],
   "t2i": true,
   "t2i_word_threshold": 150,

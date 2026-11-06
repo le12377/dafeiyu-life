@@ -242,12 +242,12 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
   "platform_settings": {
     "enable_id_white_list": true,
     "id_whitelist": [
-      "大肥鱼:FriendMessage:###",
+      "大肥鱼:FriendMessage:2260471619",
       "大肥鱼:FriendMessage:<GUEST-A>",
       "大肥鱼:FriendMessage:<GUEST-B>"
     ]
   },
-  "admins_id": ["###"]
+  "admins_id": ["2260471619"]
 }
 ```
 
@@ -306,7 +306,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 
 | 项 | 值 |
 |---|---|
-| 人格 | **3444 字**（脱敏前 3451），全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
+| 人格 | **3451 字**（脱敏前 3451），全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
 | 表情包 | 视频说两套 157 + 174，本机实际 **3 包 763 张**（多装了官方包 410 张） |
 | 静默时段 | 凌晨 **1–7 点**不主动（与视频一致） |
 | 语音 | **换成了本机 Breeze**，不是豆包（视频之外的选择） |
@@ -450,7 +450,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 
 视频的十章到此结束。它停在「能聊、会记、有表情包、有语音」。
 
-这台机器后来又在上面加了不少东西 —— 本地语音换掉了豆包、加了本地生图、写了 5 个补丁插件、把表情包扩到 763 张、把人格从配置包版本改写成 3444 字。这些**都不在视频里**，全部写在：
+这台机器后来又在上面加了不少东西 —— 本地语音换掉了豆包、加了本地生图、写了 5 个补丁插件、把表情包扩到 763 张、把人格从配置包版本改写成 3451 字。这些**都不在视频里**，全部写在：
 
 👉 [../README.md](../README.md)
 

@@ -36,8 +36,7 @@ PATTERNS = [
         r'\s*:\s*"(?!<YOUR_API_BASE>|<REDACTED|)(?:https?://)?(?!127\.0\.0\.1|localhost|10\.|192\.168\.|'
         r'172\.(?:1[6-9]|2\d|3[01])\.|/)[^"]{4,}"', re.I)),
 ]
-# 主人号一律不允许出现（仓库约定用 ###），默认就查
-PATTERNS.append(('owner-qq', re.compile(r'\b%s\b' % OWNER)))
+# 主人号按用户决定公开，不再作为违规项检查
 if STRICT:
     PATTERNS.append(('abs-path', re.compile(r'\b[A-Za-z]:[\\/]{1,2}(Users|AstrBot|Comfy|breeze|Program)', re.I)))
 

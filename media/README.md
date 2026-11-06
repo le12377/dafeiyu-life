@@ -24,8 +24,12 @@
 |---|---|
 | unet | `moss_image_sft_int8_convrot.safetensors` |
 | clip | `qwen3.5_9b_w4a8_gptq.safetensors`（type `moss_image`） |
-| vae | `flux2-vae_small.safetensors` ||
-| 模型 | unet `moss_image_sft_int8_convrot.safetensors` / clip `qwen3.5_9b_w4a8_gptq.safetensors` / vae `flux2-vae_small.safetensors` |
+| vae | `flux2-vae_small.safetensors` |
+
+**质量词与负面词**（来自 anima_master 配置）：
+
+| 项 | 值 |
+|---|---|
 | 质量前缀 | `masterpiece, best quality, score_7, safe,` |
 | 负面 | `worst quality, low quality, score_1, score_2, score_3, artist name` |
 
@@ -46,6 +50,6 @@ calm lived-in atmosphere
 
 `<ASTRBOT_ROOT>/core/workspace/outputs/images/20261102-155048-777416-5a58dc2a_comfyui_1.png`
 
-其余 51 张留在本机，未公开。逐日出图数量见 [`../STATS/daily_timeline.csv`](../STATS/daily_timeline.csv)。
+其余 51 张留在本机，未公开。逐日出图数量见 [`../stats/daily_timeline.csv`](../stats/daily_timeline.csv)。
 
 顺带一提：11-06 下午 15:52–16:07 那一个多小时里，她连着出了 6 张人鱼公主，从水下宫殿一路画到俯拍仰视。九天里单日最多是 11-05 的 20 张。挑图那天她还没画这些。

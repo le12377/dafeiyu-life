@@ -36,7 +36,7 @@
       },
       "autoTimeSync": true
     },
-    "napcat_###.json": {
+    "napcat_2260471619.json": {
       "fileLog": false,
       "consoleLog": true,
       "fileLogLevel": "debug",
@@ -62,7 +62,7 @@
         "websocketClients": []
       }
     },
-    "napcat_protocol_###.json": {
+    "napcat_protocol_2260471619.json": {
       "enable": false,
       "network": {
         "httpServers": [],
@@ -103,7 +103,7 @@
         "maxTimeout": 1800000
       }
     },
-    "onebot11_###.json": {
+    "onebot11_2260471619.json": {
       "network": {
         "httpServers": [],
         "httpSseServers": [],

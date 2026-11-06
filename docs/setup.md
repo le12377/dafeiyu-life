@@ -306,7 +306,7 @@ $env:ASTRBOT_DASHBOARD_INITIAL_PASSWORD = "新密码"
 
 | 项 | 值 |
 |---|---|
-| 人格 | **3451 字**（脱敏前 3451），全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
+| 人格 | **3451 字**，全文 [config/personas/大肥鱼.system_prompt.md](../config/personas/大肥鱼.system_prompt.md) |
 | 表情包 | 视频说两套 157 + 174，本机实际 **3 包 763 张**（多装了官方包 410 张） |
 | 静默时段 | 凌晨 **1–7 点**不主动（与视频一致） |
 | 语音 | **换成了本机 Breeze**，不是豆包（视频之外的选择） |

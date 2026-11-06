@@ -341,20 +341,39 @@ AstrBot 4.29.4（Python 3.12.16）
 
 ## 关于脱敏
 
-本仓库是**私有**的。所有凭据、账号、路径都已替换成占位符：
+原始配置里带着真实密钥、账号和本机路径。**公开前全部替换成了占位符**，下面这张表是完整的替换规则：
 
-| 类别 | 替换为 |
+| 类别 | 替换为 | 本仓当前用量 |
+|---|---|---|
+| API key / token / cookie / 密码 | `<REDACTED:类型 len=N>` | 50 处 |
+| 中转站域名与地址 | `<YOUR_API_BASE>` | 22 处 |
+| 主人 QQ 号 | `###` | 127 处 |
+| 机器人小号 | `<BOT_QQ>` | 21 处 |
+| 访客 QQ 号 | `<GUEST-A>` / `<GUEST-B>` | 19 处 |
+| AstrBot 根目录 / 安装目录 | `<ASTRBOT_ROOT>` / `<ASTRBOT_INSTALL>` | 9 处 |
+| ComfyUI 根目录 | `<COMFY_ROOT>` | 8 处 |
+| Breeze TTS 根目录 | `<BREEZE_ROOT>` | 64 处 |
+| NapCat 根目录 | `<NAPCAT_ROOT>` | 1 处 |
+| Obsidian 库路径 | `<OBSIDIAN_VAULT>` | 7 处 |
+| 用户主目录 | `<HOME>` | 3 处 |
+| AstrBot 实例 UUID | `<INSTANCE_ID>` | 5 处 |
+| 插件作者（本人） | `<SELF>` | 7 处 |
+
+`len=N` 那种写法保留原值长度，方便核对脱敏前后是否一一对应；真正的内容一个字不留。
+
+### 怎么保证没有漏网
+
+| 环节 | 做法 |
 |---|---|
-| API key / token / cookie / 密码 | `<REDACTED:类型 len=N>` |
-| 中转站域名与地址 | `<YOUR_API_BASE>`（一个字符都不留） |
-| 主人 QQ 号 | `###` |
-| 机器人小号 | `<BOT_QQ>` |
-| 访客 QQ 号 | `<GUEST-A>` / `<GUEST-B>` |
-| 本机绝对路径 | `<ASTRBOT_ROOT>` / `<HOME>` / `<OBSIDIAN_VAULT>` 等 |
-| Obsidian API key | `<REDACTED:obsidian-token>` |
-| AstrBot 实例 UUID | `<INSTANCE_ID>` |
+| 导出 | `tools/sanitize_export.py` 从本机配置机械导出，边导出边打码，不手抄 |
+| 扫描 | `tools/secret_scan.py` 在提交前拿真实值逐字反查全部受控文件，命中就报错 |
+| 隔离 | 真实值只存在 `tools/secrets.local.json`，该文件被 `.gitignore` 排除，从未进过仓库 |
 
-`tools/sanitize_export.py` 从本机配置机械导出并自动打码，`tools/secret_scan.py` 在提交前扫一遍确认没有漏网。真实值只存在 `tools/secrets.local.json`，该文件已被 `.gitignore` 排除。
+**仓库里没有任何真实值。** 聊天原文、记忆条目、数据库文件也都没有——只公开配置与统计。
+
+### 如果这是你本机的档案
+
+想复现统计或重新导出配置，需要自己建一份 `tools/secrets.local.json`，格式照 `tools/secrets.local.example.json` 抄。没有那个文件，两个脚本会直接报错退出，这是故意的。
 
 ## 复跑统计
 

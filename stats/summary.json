@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06 20:13",
+  "generated_at": "2026-11-06 22:08",
   "note": "本文件只含计数与日期，不含任何聊天原文。",
   "lifespan": {
     "first_record": "2026-10-29",
@@ -7,28 +7,28 @@
     "days": 9
   },
   "messages": {
-    "owner_to_bot": 916,
+    "owner_to_bot": 917,
     "guests_to_bot": 45,
-    "bot_replies": 914,
+    "bot_replies": 916,
     "capture_range": [
       "2026-10-30",
       "2026-11-06"
     ]
   },
   "memory": {
-    "episodic_documents": 70,
-    "memory_atoms": 290,
-    "graph_nodes": 562,
-    "graph_edges": 2030,
-    "graph_entries": 2320,
+    "episodic_documents": 71,
+    "memory_atoms": 295,
+    "graph_nodes": 572,
+    "graph_edges": 2065,
+    "graph_entries": 2360,
     "node_types": {
-      "fact": 290,
+      "fact": 295,
       "person": 6,
-      "topic": 266
+      "topic": 271
     },
     "relation_types": {
-      "describes": 1276,
-      "mentioned_in": 754
+      "describes": 1301,
+      "mentioned_in": 764
     }
   },
   "learning": {
@@ -36,11 +36,11 @@
     "jargon_entries": 6
   },
   "tokens": {
-    "total_llm_calls": 1259,
-    "input": 34896769,
+    "total_llm_calls": 1260,
+    "input": 34942659,
     "cached_input": 6721459,
-    "output": 208014,
-    "cache_hit_rate": 0.1615
+    "output": 208143,
+    "cache_hit_rate": 0.1613
   },
   "by_model": [
     {
@@ -52,10 +52,10 @@
     },
     {
       "provider_model": "nvidia/nemotron-3-ultra-550b-a55b",
-      "calls": 413,
-      "input": 9657734,
+      "calls": 414,
+      "input": 9703624,
       "cached": 3838477,
-      "output": 98020
+      "output": 98149
     },
     {
       "provider_model": "gpt-6.1-sol",
@@ -114,7 +114,7 @@
     },
     {
       "session_alias": "OWNER",
-      "messages": 294,
+      "messages": 297,
       "first": "2026-11-05",
       "last": "2026-11-06"
     },
@@ -130,7 +130,7 @@
       "alias": "OWNER",
       "created": "2026-10-29",
       "updated": "2026-11-06",
-      "tokens": 47607
+      "tokens": 46019
     },
     {
       "alias": "WEBCHAT",

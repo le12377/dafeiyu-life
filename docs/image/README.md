@@ -126,12 +126,15 @@ ComfyUI 用的是 Desktop 版，装在 `<COMFY_ROOT>\ComfyUI-Installs\ComfyUI (1
 
 2026-11-02 15:50 那张（[`../../media/大肥鱼-床上自拍-2026-11-02.png`](../../media/大肥鱼-床上自拍-2026-11-02.png)）：
 
-| 项 | 值 |
-|---|---|
-| 尺寸 | 1024 × 1536 |
-| steps / cfg | 30 / 5.0 |
-| sampler / scheduler | `er_sde` / `normal` |
-| 耗时 | 73.71 秒 |
+| 项 | 图片内嵌参数（实际） | 配置默认值 |
+|---|---|---|
+| 尺寸 | **1024 × 1024** | 1024 × 1536 |
+| steps | **25** | 30 |
+| cfg | **2.5** | 5.0 |
+| sampler / scheduler | `er_sde` / **`simple`** | `er_sde` / `normal` |
+| 耗时 | 73.71 秒 | — |
+
+> 这张图 PNG 里嵌着 ComfyUI 自己的工作流 JSON，那是**实际执行**的参数；上面「配置默认值」那一列是 `anima_master` 配置里写的。两者有四项不一致，原因没查清 —— 可能是任务下发时被改写过。以图片内嵌的为准。
 | 提示词 | `anime illustration, anime girl, adult woman, slender figure, long silver-blue wavy hair, whale hair clip, off-shoulder loose pajama shirt fully covering chest, lying on bed, lazy sleepy casual selfie from above, blushing relaxed half-lidded eyes, soft warm evening bedroom lighting, cozy blanket, anime selfie style, clean lineart, soft shading, indoor slice-of-life: indoor slice-of-life photo, one clear subject, calm lived-in atmosphere` |
 
 提示词原文和生成元数据在 [`../../media/README.md`](../../media/README.md)。

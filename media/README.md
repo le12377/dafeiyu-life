@@ -4,13 +4,27 @@
 
 ## 生成信息
 
-| 项 | 值 |
+| 项 | 图片内嵌参数（以图为准） | 任务记录里写的 |
+|---|---|---|
+| 尺寸 | **1024 × 1024** | 1024 × 1536 |
+| 步数 | **25** | 30 |
+| cfg | **2.5** | 5.0 |
+| sampler | `er_sde` | `er_sde` |
+| scheduler | **simple** | normal |
+| seed | 3585551342 | — |
+| 生成耗时 | 73.71 秒 | 73.71 秒 |
+
+> ⚠️ **两处对不上**。PNG 里嵌着 ComfyUI 的完整工作流 JSON（`prompt` 字段），那是实际执行时的参数；anima_master 的任务记录写的是另一组。**尺寸、步数、cfg、scheduler 四项都不一致**，但耗时一致。
+>
+> 以图片内嵌的为准 —— 那是 ComfyUI 真跑过的证据；任务记录更像是记下了「请求值」而不是「最终执行值」。这一点没有进一步核实，只能确认两者矛盾。
+
+**模型**（两处一致）：
+
+| 槽位 | 文件 |
 |---|---|
-| 时间 | 2026-11-02 15:49:35 起，耗时 73.71 秒 |
-| 出图 | 15:50:48 |
-| 后端 | 本机 ComfyUI（anima_master 插件，`anima_t2i` 工作流） |
-| 尺寸 | 1024 × 1536 |
-| 采样 | steps 30，cfg 5.0，sampler `er_sde`，scheduler `normal` |
+| unet | `moss_image_sft_int8_convrot.safetensors` |
+| clip | `qwen3.5_9b_w4a8_gptq.safetensors`（type `moss_image`） |
+| vae | `flux2-vae_small.safetensors` ||
 | 模型 | unet `moss_image_sft_int8_convrot.safetensors` / clip `qwen3.5_9b_w4a8_gptq.safetensors` / vae `flux2-vae_small.safetensors` |
 | 质量前缀 | `masterpiece, best quality, score_7, safe,` |
 | 负面 | `worst quality, low quality, score_1, score_2, score_3, artist name` |

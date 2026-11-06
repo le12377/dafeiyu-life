@@ -1,0 +1,7 @@
+name: astrbot_plugin_local_media_uri
+desc: 大语音改走本地路径发送，避免 base64 撑爆 NapCat 反向 WS 的 50MB 上限
+version: v0.1.0
+author: local
+repo: ""
+display_name: 大语音本地发送
+short_desc: 让 3MB 以上的语音不再被转成 60MB 的 base64

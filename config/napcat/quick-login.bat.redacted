@@ -1,0 +1,7 @@
+@echo off
+chcp 65001 >nul
+setlocal
+set "NAPCAT_QUICK_ACCOUNT=<BOT_QQ>"
+set "NAPCAT_QUICK_PASSWORD=<REDACTED:account-password>"
+.\NapCatWinBootMain.exe <BOT_QQ>
+pause

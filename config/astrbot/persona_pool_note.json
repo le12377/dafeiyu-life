@@ -1,0 +1,9 @@
+{
+  "note": "persona 见 personas/ 目录；default persona 未定制",
+  "wake_prefix": [
+    "/"
+  ],
+  "admins_id": [
+    "###"
+  ]
+}

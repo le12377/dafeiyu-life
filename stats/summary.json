@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-11-06 20:13",
+  "note": "本文件只含计数与日期，不含任何聊天原文。",
+  "lifespan": {
+    "first_record": "2026-10-29",
+    "last_record": "2026-11-06",
+    "days": 9
+  },
+  "messages": {
+    "owner_to_bot": 916,
+    "guests_to_bot": 45,
+    "bot_replies": 914,
+    "capture_range": [
+      "2026-10-30",
+      "2026-11-06"
+    ]
+  },
+  "memory": {
+    "episodic_documents": 70,
+    "memory_atoms": 290,
+    "graph_nodes": 562,
+    "graph_edges": 2030,
+    "graph_entries": 2320,
+    "node_types": {
+      "fact": 290,
+      "person": 6,
+      "topic": 266
+    },
+    "relation_types": {
+      "describes": 1276,
+      "mentioned_in": 754
+    }
+  },
+  "learning": {
+    "expression_patterns": 770,
+    "jargon_entries": 6
+  },
+  "tokens": {
+    "total_llm_calls": 1259,
+    "input": 34896769,
+    "cached_input": 6721459,
+    "output": 208014,
+    "cache_hit_rate": 0.1615
+  },
+  "by_model": [
+    {
+      "provider_model": "deepseek-v4.1-flash",
+      "calls": 739,
+      "input": 22925308,
+      "cached": 222208,
+      "output": 58937
+    },
+    {
+      "provider_model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "calls": 413,
+      "input": 9657734,
+      "cached": 3838477,
+      "output": 98020
+    },
+    {
+      "provider_model": "gpt-6.1-sol",
+      "calls": 70,
+      "input": 895539,
+      "cached": 1128154,
+      "output": 12267
+    },
+    {
+      "provider_model": "z-ai/glm-5.3-flash",
+      "calls": 20,
+      "input": 753724,
+      "cached": 534720,
+      "output": 22952
+    },
+    {
+      "provider_model": "claude-opus-5.5",
+      "calls": 11,
+      "input": 565727,
+      "cached": 945228,
+      "output": 9446
+    },
+    {
+      "provider_model": "deepseek-ai/deepseek-v4.1-flash",
+      "calls": 4,
+      "input": 67761,
+      "cached": 52672,
+      "output": 3595
+    },
+    {
+      "provider_model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "calls": 2,
+      "input": 30976,
+      "cached": 0,
+      "output": 2797
+    }
+  ],
+  "sessions": [
+    {
+      "session_alias": "WEBCHAT",
+      "messages": 1,
+      "first": "2026-10-30",
+      "last": "2026-10-30"
+    },
+    {
+      "session_alias": "WEBCHAT",
+      "messages": 7,
+      "first": "2026-10-30",
+      "last": "2026-10-30"
+    },
+    {
+      "session_alias": "GUEST",
+      "messages": 78,
+      "first": "2026-11-03",
+      "last": "2026-11-06"
+    },
+    {
+      "session_alias": "OWNER",
+      "messages": 294,
+      "first": "2026-11-05",
+      "last": "2026-11-06"
+    },
+    {
+      "session_alias": "GUEST",
+      "messages": 12,
+      "first": "2026-11-06",
+      "last": "2026-11-06"
+    }
+  ],
+  "astrbot_conversations": [
+    {
+      "alias": "OWNER",
+      "created": "2026-10-29",
+      "updated": "2026-11-06",
+      "tokens": 47607
+    },
+    {
+      "alias": "WEBCHAT",
+      "created": "2026-10-30",
+      "updated": "2026-10-30",
+      "tokens": 25422
+    },
+    {
+      "alias": "WEBCHAT",
+      "created": "2026-10-30",
+      "updated": "2026-10-30",
+      "tokens": 16219
+    },
+    {
+      "alias": "GUEST",
+      "created": "2026-11-03",
+      "updated": "2026-11-05",
+      "tokens": 47863
+    },
+    {
+      "alias": "GUEST",
+      "created": "2026-11-06",
+      "updated": "2026-11-06",
+      "tokens": 41565
+    }
+  ],
+  "media": {
+    "images_generated_total": 54,
+    "tts_wav_total": 327,
+    "images_by_day": {
+      "2026-11-01": 2,
+      "2026-11-02": 10,
+      "2026-11-03": 8,
+      "2026-11-04": 5,
+      "2026-11-05": 20,
+      "2026-11-06": 9
+    },
+    "tts_by_day": {
+      "2026-10-29": 7,
+      "2026-10-30": 218,
+      "2026-10-31": 4,
+      "2026-11-01": 44,
+      "2026-11-02": 11,
+      "2026-11-03": 11,
+      "2026-11-04": 13,
+      "2026-11-05": 17,
+      "2026-11-06": 2
+    }
+  },
+  "qzone_posts_recent": [
+    {
+      "day": "2026-11-01",
+      "chars": 16
+    },
+    {
+      "day": "2026-11-04",
+      "chars": 48
+    }
+  ]
+}

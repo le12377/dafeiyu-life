@@ -1,0 +1,19 @@
+{
+  "target_kb_name": "",
+  "new_kb_name": "",
+  "remote_repo_url": "",
+  "remote_branch": "",
+  "ignore_paths": [
+    "README.md"
+  ],
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "embedding_batch_size": 64,
+  "embedding_tasks_limit": 1,
+  "embedding_max_retries": 7,
+  "notify_owner_enabled": false,
+  "notify_group_enabled": false,
+  "notify_group_id": "",
+  "auto_sync_enabled": true,
+  "auto_sync_interval_hours": 24
+}

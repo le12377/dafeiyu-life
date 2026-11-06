@@ -1,0 +1,8 @@
+name: astrbot_plugin_tts_wav_fix
+display_name: 语音时长修正
+desc: Breeze 这类流式 TTS 有两个毛病：WAV 头长度字段是 0xFFFFFFFF（QQ 里时长乱跳、放一半就停），以及句尾经常提前 EOS（最后一个字被吞）。这个插件重写 WAV 头，并在发现句尾没说完时换 seed 重新生成。
+help: 装上就生效，不用配置。
+version: v0.2.0
+author: <SELF>
+support_platforms:
+  - aiocqhttp

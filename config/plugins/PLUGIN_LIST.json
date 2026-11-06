@@ -1,0 +1,181 @@
+[
+  {
+    "dir": "astrbot_plugin_anima_master",
+    "yaml": {
+      "name": "astrbot_plugin_anima_master",
+      "version": "0.9.3",
+      "author": "YayiMiko",
+      "desc": "将 AstrBot 连接到本地 ComfyUI / Anima 工作流，提供生图、提示词优化、法术解析和图片反推能力。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_bilibili_shixun",
+    "yaml": {
+      "name": "astrbot_plugin_bilibili_shixun",
+      "version": "v0.11.1",
+      "author": "yuease",
+      "desc": "直连 B 站，支持免登录关键词搜索、聊天订阅管理、QQ 扫码、来源采集与个人简报。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_biliread",
+    "yaml": {
+      "name": "astrbot_plugin_biliread",
+      "version": "v1.2.0",
+      "author": "SodaCode & CodeBuddy & GLM-5",
+      "desc": "让 AI 理解 B 站视频，并给出符合人设的自然回复"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_dafeiyu_clean",
+    "yaml": {
+      "name": "astrbot_plugin_dafeiyu_clean",
+      "version": "v0.1.0",
+      "author": "zexuan604",
+      "desc": "发出去之前把模型偶尔漏出来的内部标签（system_reminder、DeepSeek 的 DSML 工具调用标记）删掉，聊天记录里也一起清掉"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_dafeiyu_signature",
+    "yaml": {
+      "name": "astrbot_plugin_dafeiyu_signature",
+      "version": "v0.1.3",
+      "author": "zexuan604",
+      "desc": "让机器人自己改 QQ 个性签名：主人用大白话叫她改，或者她心情变了自己改（一天最多自己改两次）"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_image_companion",
+    "yaml": {
+      "name": "astrbot_plugin_image_companion",
+      "version": "0.4.5",
+      "author": "menglimi",
+      "desc": "陪伴插件的生图、改图、参考图库与多后端扩展。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_irmia_vision",
+    "yaml": {
+      "name": "astrbot_plugin_irmia_vision",
+      "version": "1.1.8",
+      "author": "伊尔弥亚",
+      "desc": "为 Agent 提供主动读图能力（而非被动式框架注入），读图结果落库存储，避免重复调用 VL 模型并保护上下文。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_listen_music",
+    "yaml": {
+      "name": "astrbot_plugin_listen_music",
+      "version": "0.1.3",
+      "author": "57Darling02",
+      "desc": "Bilibili 单源搜索、语音听歌与文件下载。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_livingmemory",
+    "yaml": {
+      "name": "astrbot_plugin_livingmemory",
+      "version": "2.8.2",
+      "author": "lxfight",
+      "desc": "为 AstrBot 打造的、拥有完整记忆生命周期的智能长期记忆插件（v2.0 重构版）。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_llm_balance",
+    "yaml": {
+      "name": "astrbot_plugin_llm_balance",
+      "version": "v1.4.3",
+      "author": "XTsat",
+      "desc": "查询各大模型平台余额，支持批量查询多个令牌，支持查询 Astrbot 内置的端点、传递平台或传递 API 端点、自定义的 NewAPI 站点；支持测试 OpenAI 兼容端点的模型可用性"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_local_media_uri",
+    "yaml": {
+      "name": "astrbot_plugin_local_media_uri",
+      "version": "v0.1.0",
+      "author": "local",
+      "desc": "大语音改走本地路径发送，避免 base64 撑爆 NapCat 反向 WS 的 50MB 上限"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_matsuko_cover",
+    "yaml": {
+      "name": "astrbot_plugin_matsuko_cover",
+      "version": "v2.13.0",
+      "author": "Matsuko",
+      "desc": "🐱 AI翻唱插件（支持 RVC、SVC-Fusion、SoulX-SVCVC 参考音色、随机种子、QQ音乐、本地音频与 LLM 点歌）"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_meme_marker_fix",
+    "yaml": {
+      "name": "astrbot_plugin_meme_marker_fix",
+      "version": "v0.1.0",
+      "author": "<SELF>",
+      "desc": "模型偶尔把表情包标记写成半截（&&happy 少了收尾），导致 QQ 里露出标记文字、表情包发不出去。这个插件在历史、回复和发送前三处把标记补成对。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_private_companion",
+    "yaml": {
+      "name": "astrbot_plugin_private_companion",
+      "version": "6.5.6",
+      "author": "menglimi",
+      "desc": "可独立运行的 AstrBot 陪伴核心；记忆核心缺失时相关能力降级，可选扩展缺失时对应功能关闭。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_proactive_chat",
+    "yaml": {
+      "name": "astrbot_plugin_proactive_chat",
+      "version": "v1.2.6",
+      "author": "DBJD-CR",
+      "desc": "一个能让 Bot 在私聊和群聊中发起主动消息的插件，拥有上下文感知、持久化数据、动态情绪、免打扰时段和 TTS 集成。还有独立 WebUI，可进行个性化配置。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_qzone",
+    "yaml": {
+      "name": "astrbot_plugin_qzone",
+      "version": "v3.2.0",
+      "author": "Zhalslar",
+      "desc": "QQ空间对接插件, 支持查看/点赞/评论说说、自动发说说、AI写说说、表白墙投稿与审核等功能"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_self_learning",
+    "yaml": {
+      "name": "astrbot_plugin_self_learning",
+      "version": "4.4.5",
+      "author": "NickMo, EterUltimate"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_tts_wav_fix",
+    "yaml": {
+      "name": "astrbot_plugin_tts_wav_fix",
+      "version": "v0.2.0",
+      "author": "<SELF>",
+      "desc": "Breeze 这类流式 TTS 有两个毛病：WAV 头长度字段是 0xFFFFFFFF（QQ 里时长乱跳、放一半就停），以及句尾经常提前 EOS（最后一个字被吞）。这个插件重写 WAV 头，并在发现句尾没说完时换 seed 重新生成。"
+    }
+  },
+  {
+    "dir": "astrbot_plugin_web_search",
+    "yaml": {
+      "name": "astrbot_plugin_web_search",
+      "version": "1.0.0",
+      "author": "ayacyann",
+      "desc": "|"
+    }
+  },
+  {
+    "dir": "meme_manager",
+    "yaml": {
+      "name": "meme_manager",
+      "version": "5.2.10",
+      "author": "anka",
+      "desc": ">-"
+    }
+  }
+]

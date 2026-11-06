@@ -1,0 +1,7 @@
+{
+  "owner_session": "大肥鱼:FriendMessage:###",
+  "daily_self_limit": 2,
+  "daily_owner_limit": 10,
+  "max_length": 40,
+  "self_change_hint": true
+}

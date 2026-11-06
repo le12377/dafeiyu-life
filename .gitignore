@@ -1,0 +1,22 @@
+# 本机真值：绝对不要提交
+tools/secrets.local.json
+
+# 中间产物：含未脱敏原文（聊天、记忆、密钥），只留在本机
+_staging/
+*.pyc
+__pycache__/
+
+# 系统/编辑器
+Thumbs.db
+desktop.ini
+.obsidian/
+.workbuddy/
+
+# 保险丝：任何凭据类文件名
+*.credentials*
+*.env
+.env
+*.key
+*.pem
+id_rsa*
+secrets.json

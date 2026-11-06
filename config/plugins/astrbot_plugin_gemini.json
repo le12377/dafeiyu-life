@@ -1,0 +1,9 @@
+{
+  "api_url": "http://172.17.0.1:8000/v1/chat/completions",
+  "apikey": "",
+  "model": "imagen-4.0-generate-preview-landscape",
+  "custom_model": "",
+  "prompt_list": [
+    "手办化:将图片转换为精美的手办风格"
+  ]
+}

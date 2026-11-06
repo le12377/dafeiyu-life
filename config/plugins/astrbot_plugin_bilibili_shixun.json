@@ -1,0 +1,13 @@
+{
+  "collection_context_enabled": true,
+  "collection_context_max_chars": 6000,
+  "briefing_provider_id": "deepseek-responses/deepseek-v4.1-flash",
+  "model_timeout_seconds": 90,
+  "dashboard_admins": [],
+  "bili_auto_relogin": true,
+  "bili_check_interval_minutes": 30,
+  "allow_private_users": true,
+  "max_users": 8,
+  "dashboard_bindings": "###",
+  "account_hosting_admin_only": false
+}

@@ -1,0 +1,7 @@
+{
+  "llm_provider_id": "deepseek-responses/deepseek-v4.1-flash",
+  "bilibili_cookie": {
+    "sessdata": "<REDACTED:cookie len=222>",
+    "id": "<REDACTED:secret len=32>"
+  }
+}

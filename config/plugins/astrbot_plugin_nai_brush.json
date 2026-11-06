@@ -1,0 +1,105 @@
+{
+  "model": {
+    "base_url": "<YOUR_API_BASE>",
+    "api_key": "",
+    "nai_endpoint": "/generate",
+    "default_model": "nai-diffusion-4-5-full",
+    "available_models": [
+      "nai-diffusion-3",
+      "nai-diffusion-3-furry",
+      "nai-diffusion-4-full",
+      "nai-diffusion-4-curated",
+      "nai-diffusion-4-5-full"
+    ],
+    "nai_size": "832x1216",
+    "sampler": "k_euler_ancestral",
+    "num_inference_steps": 28,
+    "guidance_scale": 5.0,
+    "negative_prompt_add": "",
+    "custom_prompt_add": "",
+    "nai_extra_params": "{}",
+    "artist_presets": []
+  },
+  "model_nai3": {
+    "nai_size": "832x1216",
+    "selfie_prompt_add": "",
+    "sampler": "k_euler_ancestral",
+    "num_inference_steps": 28,
+    "guidance_scale": 5.0,
+    "default_size": "1024x1280",
+    "custom_prompt_add": "",
+    "negative_prompt_add": "",
+    "nai_cfg": 0.0,
+    "nai_noise_schedule": "karras",
+    "nai_nocache": 0,
+    "nai_extra_params": "{}",
+    "artist_presets": []
+  },
+  "model_nai4": {
+    "nai_size": "832x1216",
+    "selfie_prompt_add": "",
+    "sampler": "k_euler_ancestral",
+    "num_inference_steps": 28,
+    "guidance_scale": 5.0,
+    "default_size": "1024x1280",
+    "custom_prompt_add": "",
+    "negative_prompt_add": "",
+    "nai_cfg": 0.0,
+    "nai_noise_schedule": "karras",
+    "nai_nocache": 0,
+    "nai_extra_params": "{}",
+    "artist_presets": []
+  },
+  "model_nai4_5": {
+    "nai_size": "832x1216",
+    "selfie_prompt_add": "",
+    "sampler": "k_euler_ancestral",
+    "num_inference_steps": 28,
+    "guidance_scale": 5.0,
+    "default_size": "1024x1280",
+    "custom_prompt_add": "",
+    "negative_prompt_add": "",
+    "nai_cfg": 0.0,
+    "nai_noise_schedule": "karras",
+    "nai_nocache": 0,
+    "nai_extra_params": "{}",
+    "artist_presets": []
+  },
+  "prompt_generator": {
+    "provider_id": "",
+    "temperature": 0.2,
+    "max_tokens": 220,
+    "output_format": "text",
+    "selfie_appearance_policy": "auto",
+    "enforce_tag_order": false,
+    "prompt_template": ""
+  },
+  "tagger": {
+    "provider_id": "",
+    "temperature": 0.2,
+    "max_tokens": 900
+  },
+  "admin": {
+    "admin_users": [],
+    "default_admin_mode": false
+  },
+  "auto_recall": {
+    "enabled": false,
+    "delay_seconds": 5,
+    "allowed_groups": []
+  },
+  "nsfw_filter": {
+    "enabled": false,
+    "filter_tags": "{{{{{nsfw}}}}}"
+  },
+  "prompt_show": {
+    "enabled": false,
+    "hide_selfie_prompt_add": false
+  },
+  "custom_prompt": {
+    "system_prompt": ""
+  },
+  "components": {
+    "enable_debug_info": false
+  }
+}

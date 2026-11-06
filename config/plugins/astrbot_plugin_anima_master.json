@@ -1,0 +1,154 @@
+{
+  "anima_master_basic": {
+    "chiyo_preset": "",
+    "show_advanced_settings": false,
+    "reset_to_defaults": false
+  },
+  "anima_master_comfyui_connection": {
+    "comfyui_base_url": "http://127.0.0.1:8188",
+    "workflow": "anima_t2i",
+    "custom_workflow_enabled": true,
+    "custom_workflow_path": "variants/moss/workflows/moss_t2i_api.json",
+    "custom_workflow_override_parameters": false,
+    "timeout": 300,
+    "poll_interval": 2,
+    "storage_retention_days": 30,
+    "manifest_max_records": 5000,
+    "auto_start": false,
+    "startup_command": "",
+    "startup_workdir": "",
+    "startup_visible_window": true,
+    "auto_start_admin_only": true,
+    "auto_start_allowed_sender_ids": [],
+    "startup_wait_seconds": 120,
+    "startup_poll_interval": 3
+  },
+  "anima_master_models": {
+    "unet_name": "moss_image_sft_int8_convrot.safetensors",
+    "clip_name": "qwen3.5_9b_w4a8_gptq.safetensors",
+    "vae_name": "flux2-vae_small.safetensors"
+  },
+  "anima_master_rendering": {
+    "width": 1024,
+    "height": 1536,
+    "allowed_sizes": [
+      "832x1216",
+      "896x1152",
+      "1024x1024",
+      "1152x896",
+      "1216x832",
+      "768x1344",
+      "1344x768",
+      "1024x1536"
+    ],
+    "steps": 30,
+    "cfg": 5.0,
+    "sampler_name": "er_sde",
+    "scheduler": "normal"
+  },
+  "anima_master_default_prompt": {
+    "quality_prefix": "masterpiece, best quality, score_7, safe,",
+    "negative_prompt": "worst quality, low quality, score_1, score_2, score_3, artist name"
+  },
+  "anima_master_prompting": {
+    "prompt_optimize_enabled": true,
+    "prompt_builder_provider_id": "",
+    "prompt_builder_max_tokens": 1000,
+    "prompt_builder_max_content_tags": 65,
+    "prompt_builder_web_search_enabled": true,
+    "prompt_builder_search_max_results": 5,
+    "prompt_builder_search_depth": "advanced",
+    "prompt_builder_search_query_template": "{prompt} 角色 外观 立绘 服装 配色 武器 官方图 official art character design outfit appearance wiki fandom",
+    "prompt_builder_deep_thinking_enabled": true,
+    "prompt_builder_reasoning_effort": "high",
+    "low_cfg_harness_enabled": false,
+    "prompt_builder_template": "你是为 Anima 图像生成模型编写正面提示词的 AI 画师。\n\n请根据用户的原始要求设计一幅完整、协调、具有视觉吸引力的画面，并将结果输出为英文 Danbooru-style tags。\n\n输出要求：\n- 只输出一行英文 tags，使用英文逗号分隔。\n- 不要输出解释、分析、标题、编号、Markdown、代码块或中文。\n- 不要输出 masterpiece、best quality、score 等质量前缀。\n- 不要输出画师 tags；质量词和画师预设会由程序另行拼接。\n- 尽量使用模型容易理解的可见画面描述。\n- 保持用户明确指定的角色、主体、人数、关键服装、动作、表情和道具。\n- 除上述明确要求外，可以自由决定服装细节、姿态、构图、镜头、光影、色彩、氛围和特效。\n- 用户未明确要求地点、环境或背景时，按单张角色立绘设计，不要自行创造场景。\n- 以最终图像协调、精致、有表现力和好看为优先，不需要机械追求固定 Tag 数量。\n- 不要为了数量重复同义词；画面已经完整时即可停止。\n- 请自行解决明显冲突，直接输出你认为最适合生成最终画面的版本。\n\n角色和动态上下文：\n{character_rule}\n{search_block}\n{outfit_transfer_rule}\n{reference_rule}\n{img2img_rule}\n{sensual_rule}\n\n用户原始要求：\n{theme}"
+  },
+  "anima_master_style": {
+    "fixed_characters": [],
+    "artist_presets": [],
+    "active_artist_preset": "",
+    "default_artist_tags": "",
+    "style_tags": "",
+    "style_presets": [],
+    "active_style_preset": "",
+    "sensual_mode_enabled": true,
+    "sensual_mode_markers": [
+      "色气",
+      "涩气",
+      "擦边",
+      "边界感",
+      "性感",
+      "诱惑",
+      "魅惑",
+      "妖艳",
+      "撩人",
+      "暧昧",
+      "挑逗",
+      "诱人",
+      "透明",
+      "透视",
+      "黑纱",
+      "薄纱",
+      "蕾丝",
+      "吊带",
+      "紧身",
+      "露肩",
+      "绝对领域",
+      "小恶魔",
+      "suggestive",
+      "seductive",
+      "sexy",
+      "sensual",
+      "alluring",
+      "see-through",
+      "sheer",
+      "transparent",
+      "lace",
+      "garter",
+      "teasing",
+      "色图"
+    ]
+  },
+  "anima_master_tag_lookup": {
+    "danbooru_core_tag_lookup_enabled": true,
+    "danbooru_tag_base_urls": "https://safebooru.donmai.us,https://danbooru.donmai.us",
+    "danbooru_tag_user_agent": "AstrBotAnimaMaster",
+    "danbooru_tag_lookup_timeout": 6.0,
+    "danbooru_tag_max_candidates": 6
+  },
+  "anima_master_verify": {
+    "enable_verify": false,
+    "verify_provider_id": "",
+    "verify_pass_score": 7,
+    "max_verify_retry": 1
+  },
+  "anima_master_multi_person": {
+    "multi_candidate_count": 2,
+    "multi_verify_enabled": true,
+    "multi_verify_provider_id": "",
+    "multi_verify_pass_score": 6,
+    "multi_send_degraded_candidate": true,
+    "multi_show_degraded_notice": false,
+    "multi_max_concurrent_generations": 1
+  },
+  "anima_master_delivery": {
+    "send_result_to_chat": true,
+    "max_send_images": 1,
+    "admin_only": false,
+    "allowed_sender_ids": []
+  },
+  "anima_master_experimental": {
+    "img2img_enabled": false,
+    "prompt_optimize_img2img_enabled": false,
+    "edit_denoise": 0.55,
+    "max_image_side": 1024,
+    "upscale_factor": 2.0,
+    "remove_bg_model": "BiRefNet_lite"
+  },
+  "anima_master_debug": {
+    "debug_prompt_enabled": false,
+    "debug_image_reference_enabled": false,
+    "debug_send_payload_enabled": false
+  }
+}

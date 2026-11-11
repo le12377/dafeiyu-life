@@ -1,0 +1,35 @@
+{
+  "os": "Windows (x64)",
+  "astrbot_launcher": "<ASTRBOT_INSTALL>\\AstrBot Launcher\\instances\\<INSTANCE_ID>\\..\\..\\astrbot-launcher.exe",
+  "astrbot_core_version": "4.29.4",
+  "astrbot_instances": [
+    "<INSTANCE_ID>"
+  ],
+  "python": "3.12.16（launcher 内置 py312 + 实例 venv）",
+  "node": "launcher 内置 components/nodejs",
+  "uv": "launcher 内置 components/uv",
+  "napcat": "NapCat.52230.Shell（OneBot v11，反向 WebSocket），登录的是小号",
+  "comfyui": "<COMFY_ROOT>\\ComfyUI-Installs\\ComfyUI (1) standalone-env，端口 8188",
+  "breeze_tts": "breeze-tts-2 v0.1.3 windows-x64-vulkan，端口 8137，模型 breeze-tts-2-q8_0.gguf（3.57GB），音色 dafeiyu.breeze",
+  "embedding": "Ollama bge-m3 1024 维（本机 127.0.0.1:11434）",
+  "obsidian_vault": "<OBSIDIAN_VAULT>（Local REST API + mcp-remote）",
+  "ports": {
+    "astrbot_dashboard": 6185,
+    "astrbot_ws_reverse": 6199,
+    "comfyui": 8188,
+    "breeze_tts": 8137,
+    "ollama": 11434,
+    "obsidian_rest": 27124,
+    "self_learning_webui": 7833,
+    "pc_webui": 6190,
+    "proactive_webui": 4100
+  },
+  "qq_accounts": {
+    "owner": "2260471619",
+    "bot": "<BOT_QQ>",
+    "guests_seen": [
+      "<GUEST-A>",
+      "<GUEST-B>"
+    ]
+  }
+}

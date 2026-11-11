@@ -1,0 +1,221 @@
+[
+  {
+    "date": "2026-10-29",
+    "owner_msgs": 0,
+    "guest_msgs": 0,
+    "bot_msgs": 0,
+    "memories_written": 0,
+    "avg_memory_importance": null,
+    "llm_calls": 12,
+    "tokens_input": 83915,
+    "tokens_cached": 0,
+    "tokens_output": 1394,
+    "images_generated": 0,
+    "tts_voices": 7,
+    "moods": {}
+  },
+  {
+    "date": "2026-10-30",
+    "owner_msgs": 71,
+    "guest_msgs": 0,
+    "bot_msgs": 55,
+    "memories_written": 18,
+    "avg_memory_importance": 0.577,
+    "llm_calls": 224,
+    "tokens_input": 4107115,
+    "tokens_cached": 851040,
+    "tokens_output": 47580,
+    "images_generated": 0,
+    "tts_voices": 218,
+    "moods": {
+      "nostalgic": 1,
+      "happy": 7,
+      "excited": 6,
+      "sad": 3
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "owner_msgs": 105,
+    "guest_msgs": 0,
+    "bot_msgs": 102,
+    "memories_written": 20,
+    "avg_memory_importance": 0.591,
+    "llm_calls": 260,
+    "tokens_input": 5760190,
+    "tokens_cached": 2033403,
+    "tokens_output": 53532,
+    "images_generated": 0,
+    "tts_voices": 4,
+    "moods": {
+      "excited": 14
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "owner_msgs": 176,
+    "guest_msgs": 0,
+    "bot_msgs": 140,
+    "memories_written": 7,
+    "avg_memory_importance": 0.644,
+    "llm_calls": 170,
+    "tokens_input": 3631067,
+    "tokens_cached": 140332,
+    "tokens_output": 8565,
+    "images_generated": 2,
+    "tts_voices": 44,
+    "moods": {
+      "excited": 23
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "owner_msgs": 144,
+    "guest_msgs": 0,
+    "bot_msgs": 139,
+    "memories_written": 9,
+    "avg_memory_importance": 0.607,
+    "llm_calls": 138,
+    "tokens_input": 4008499,
+    "tokens_cached": 24160,
+    "tokens_output": 7988,
+    "images_generated": 10,
+    "tts_voices": 11,
+    "moods": {
+      "excited": 4,
+      "happy": 10,
+      "sad": 3,
+      "anxious": 13
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "owner_msgs": 100,
+    "guest_msgs": 9,
+    "bot_msgs": 104,
+    "memories_written": 6,
+    "avg_memory_importance": 0.665,
+    "llm_calls": 105,
+    "tokens_input": 2798709,
+    "tokens_cached": 19712,
+    "tokens_output": 5214,
+    "images_generated": 8,
+    "tts_voices": 11,
+    "moods": {
+      "happy": 6,
+      "anxious": 7,
+      "excited": 1
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "owner_msgs": 138,
+    "guest_msgs": 14,
+    "bot_msgs": 198,
+    "memories_written": 10,
+    "avg_memory_importance": 0.701,
+    "llm_calls": 146,
+    "tokens_input": 8203077,
+    "tokens_cached": 1155532,
+    "tokens_output": 40458,
+    "images_generated": 5,
+    "tts_voices": 13,
+    "moods": {
+      "excited": 10,
+      "anxious": 1
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "owner_msgs": 148,
+    "guest_msgs": 15,
+    "bot_msgs": 144,
+    "memories_written": 0,
+    "avg_memory_importance": null,
+    "llm_calls": 163,
+    "tokens_input": 4691032,
+    "tokens_cached": 1480192,
+    "tokens_output": 30228,
+    "images_generated": 20,
+    "tts_voices": 17,
+    "moods": {
+      "excited": 8,
+      "anxious": 11,
+      "happy": 3,
+      "sad": 3
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "owner_msgs": 36,
+    "guest_msgs": 7,
+    "bot_msgs": 35,
+    "memories_written": 1,
+    "avg_memory_importance": 0.746,
+    "llm_calls": 43,
+    "tokens_input": 1706348,
+    "tokens_cached": 1017088,
+    "tokens_output": 13270,
+    "images_generated": 9,
+    "tts_voices": 2,
+    "moods": {
+      "happy": 2,
+      "angry": 1
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "owner_msgs": 1,
+    "guest_msgs": 0,
+    "bot_msgs": 5,
+    "memories_written": 0,
+    "avg_memory_importance": null,
+    "llm_calls": 1,
+    "tokens_input": 45892,
+    "tokens_cached": 0,
+    "tokens_output": 169,
+    "images_generated": 0,
+    "tts_voices": 0,
+    "moods": {
+      "curious": 1,
+      "angry": 1,
+      "nostalgic": 1
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "owner_msgs": 3,
+    "guest_msgs": 0,
+    "bot_msgs": 3,
+    "memories_written": 0,
+    "avg_memory_importance": null,
+    "llm_calls": 3,
+    "tokens_input": 106515,
+    "tokens_cached": 0,
+    "tokens_output": 253,
+    "images_generated": 0,
+    "tts_voices": 0,
+    "moods": {
+      "curious": 1
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "owner_msgs": 38,
+    "guest_msgs": 0,
+    "bot_msgs": 38,
+    "memories_written": 8,
+    "avg_memory_importance": 0.5,
+    "llm_calls": 38,
+    "tokens_input": 1519898,
+    "tokens_cached": 442784,
+    "tokens_output": 8792,
+    "images_generated": 0,
+    "tts_voices": 2,
+    "moods": {
+      "serious": 4,
+      "playful": 1,
+      "anxious": 5
+    }
+  }
+]

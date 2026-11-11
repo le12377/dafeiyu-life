@@ -1,0 +1,22 @@
+{
+  "admin_only": false,
+  "output_language": "zh",
+  "newapi_base_url": "",
+  "request_timeout": 10.0,
+  "show_unsupported": true,
+  "success_template": "🟢 **{{source_name}}**\n  🔑 密钥: {{api_key}}\n  💵 {{balance}} {{currency}}\n{{smart_balance}}",
+  "error_template": "🔴 **{{source_name}}**\n  🔑 密钥: {{api_key}}\n  ❌ {{error}}",
+  "header_template": "💰 **{{title}}**",
+  "separator_template": "════════════════════════════════════════",
+  "item_separator_template": "",
+  "section_separator_template": "════════════════════════════════════════",
+  "platform_aliases": {
+    "deepseek": "deepseek,ds,深度求索",
+    "siliconflow": "siliconflow,siliconcloud,硅基,硅基流动,sc",
+    "moonshot": "moonshot.cn,moonshot,kimi,月之暗面",
+    "openai": "openai.com,openai,gpt,chatgpt",
+    "chatanywhere": "chatanywhere,ca",
+    "newapi": "newapi,new"
+  },
+  "platform_names": []
+}

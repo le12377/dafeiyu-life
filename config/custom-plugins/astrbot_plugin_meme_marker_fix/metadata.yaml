@@ -1,0 +1,8 @@
+name: astrbot_plugin_meme_marker_fix
+display_name: 表情包标记补全
+desc: 模型偶尔把表情包标记写成半截（&&happy 少了收尾），导致 QQ 里露出标记文字、表情包发不出去。这个插件在历史、回复和发送前三处把标记补成对。
+help: 装上就行，不用设置。
+version: v0.1.0
+author: <SELF>
+support_platforms:
+  - aiocqhttp

@@ -1,0 +1,63 @@
+[
+  {
+    "provider": "nvidia",
+    "type": "openai_chat_completion",
+    "provider_type": "chat_completion",
+    "key": [
+      "<REDACTED:secret len=70>"
+    ],
+    "api_base": "<YOUR_API_BASE>",
+    "timeout": 120,
+    "proxy": "",
+    "custom_headers": {},
+    "id": "nvidia",
+    "enable": true
+  },
+  {
+    "provider": "openai",
+    "type": "openai_responses",
+    "provider_type": "chat_completion",
+    "key": [
+      "<REDACTED:secret len=67>"
+    ],
+    "api_base": "<YOUR_API_BASE>",
+    "timeout": 120,
+    "proxy": "",
+    "custom_headers": {},
+    "id": "openai-responses",
+    "enable": true
+  },
+  {
+    "provider": "deepseek",
+    "type": "openai_responses",
+    "provider_type": "chat_completion",
+    "key": [
+      "<REDACTED:secret len=67>"
+    ],
+    "api_base": "<YOUR_API_BASE>",
+    "timeout": 120,
+    "proxy": "",
+    "custom_headers": {},
+    "id": "dp",
+    "enable": true
+  },
+  {
+    "provider": "anthropic",
+    "type": "anthropic_chat_completion",
+    "provider_type": "chat_completion",
+    "key": [
+      "<REDACTED:secret len=67>"
+    ],
+    "api_base": "<YOUR_API_BASE>",
+    "timeout": 120,
+    "proxy": "",
+    "custom_headers": {},
+    "anth_thinking_config": {
+      "type": "adaptive",
+      "budget": 1024,
+      "effort": "high"
+    },
+    "id": "anthropic",
+    "enable": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "VL 模型配置": {
+    "vl_provider_1": "",
+    "vl_provider_2": "",
+    "vl_provider_3": "",
+    "vl_provider_ids": "deepseek-responses/deepseek-v4.1-flash",
+    "max_batch": 2000,
+    "vl_model": {
+      "provider": "openai",
+      "base_url": "<YOUR_API_BASE>",
+      "api_key": "<REDACTED:api-key len=67>",
+      "model": "deepseek-v4.1-flash",
+      "timeout": 90.0,
+      "concurrency": 4,
+      "max_retries": 2,
+      "detail": "auto",
+      "reasoning_effort": "low"
+    }
+  }
+}

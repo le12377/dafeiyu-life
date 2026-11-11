@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-11-11 20:03",
+  "note": "本文件只含计数与日期，不含任何聊天原文。",
+  "lifespan": {
+    "first_record": "2026-10-29",
+    "last_record": "2026-11-11",
+    "days": 12
+  },
+  "messages": {
+    "owner_to_bot": 960,
+    "guests_to_bot": 45,
+    "bot_replies": 963,
+    "capture_range": [
+      "2026-10-30",
+      "2026-11-11"
+    ]
+  },
+  "memory": {
+    "episodic_documents": 79,
+    "memory_atoms": 326,
+    "graph_nodes": 629,
+    "graph_edges": 2261,
+    "graph_entries": 2587,
+    "node_types": {
+      "fact": 326,
+      "person": 6,
+      "topic": 297
+    },
+    "relation_types": {
+      "describes": 1424,
+      "mentioned_in": 837
+    }
+  },
+  "learning": {
+    "expression_patterns": 804,
+    "jargon_entries": 6
+  },
+  "tokens": {
+    "total_llm_calls": 1303,
+    "input": 36662257,
+    "cached_input": 7164243,
+    "output": 217443,
+    "cache_hit_rate": 0.1635
+  },
+  "by_model": [
+    {
+      "provider_model": "deepseek-v4.1-flash",
+      "calls": 739,
+      "input": 22925308,
+      "cached": 222208,
+      "output": 58937
+    },
+    {
+      "provider_model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "calls": 457,
+      "input": 11423222,
+      "cached": 4281261,
+      "output": 107449
+    },
+    {
+      "provider_model": "gpt-6.1-sol",
+      "calls": 70,
+      "input": 895539,
+      "cached": 1128154,
+      "output": 12267
+    },
+    {
+      "provider_model": "z-ai/glm-5.3-flash",
+      "calls": 20,
+      "input": 753724,
+      "cached": 534720,
+      "output": 22952
+    },
+    {
+      "provider_model": "claude-opus-5.5",
+      "calls": 11,
+      "input": 565727,
+      "cached": 945228,
+      "output": 9446
+    },
+    {
+      "provider_model": "deepseek-ai/deepseek-v4.1-flash",
+      "calls": 4,
+      "input": 67761,
+      "cached": 52672,
+      "output": 3595
+    },
+    {
+      "provider_model": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "calls": 2,
+      "input": 30976,
+      "cached": 0,
+      "output": 2797
+    }
+  ],
+  "sessions": [
+    {
+      "session_alias": "WEBCHAT",
+      "messages": 1,
+      "first": "2026-10-30",
+      "last": "2026-10-30"
+    },
+    {
+      "session_alias": "WEBCHAT",
+      "messages": 7,
+      "first": "2026-10-30",
+      "last": "2026-10-30"
+    },
+    {
+      "session_alias": "GUEST",
+      "messages": 78,
+      "first": "2026-11-03",
+      "last": "2026-11-06"
+    },
+    {
+      "session_alias": "OWNER",
+      "messages": 395,
+      "first": "2026-11-05",
+      "last": "2026-11-11"
+    },
+    {
+      "session_alias": "GUEST",
+      "messages": 12,
+      "first": "2026-11-06",
+      "last": "2026-11-06"
+    }
+  ],
+  "astrbot_conversations": [
+    {
+      "alias": "OWNER",
+      "created": "2026-10-29",
+      "updated": "2026-11-11",
+      "tokens": 42804
+    },
+    {
+      "alias": "WEBCHAT",
+      "created": "2026-10-30",
+      "updated": "2026-10-30",
+      "tokens": 25422
+    },
+    {
+      "alias": "WEBCHAT",
+      "created": "2026-10-30",
+      "updated": "2026-10-30",
+      "tokens": 16219
+    },
+    {
+      "alias": "GUEST",
+      "created": "2026-11-03",
+      "updated": "2026-11-05",
+      "tokens": 47863
+    },
+    {
+      "alias": "GUEST",
+      "created": "2026-11-06",
+      "updated": "2026-11-06",
+      "tokens": 41565
+    }
+  ],
+  "media": {
+    "images_generated_total": 54,
+    "tts_wav_total": 329,
+    "images_by_day": {
+      "2026-11-01": 2,
+      "2026-11-02": 10,
+      "2026-11-03": 8,
+      "2026-11-04": 5,
+      "2026-11-05": 20,
+      "2026-11-06": 9
+    },
+    "tts_by_day": {
+      "2026-10-29": 7,
+      "2026-10-30": 218,
+      "2026-10-31": 4,
+      "2026-11-01": 44,
+      "2026-11-02": 11,
+      "2026-11-03": 11,
+      "2026-11-04": 13,
+      "2026-11-05": 17,
+      "2026-11-06": 2,
+      "2026-11-11": 2
+    }
+  },
+  "qzone_posts_recent": [
+    {
+      "day": "2026-11-01",
+      "chars": 16
+    },
+    {
+      "day": "2026-11-04",
+      "chars": 48
+    }
+  ]
+}

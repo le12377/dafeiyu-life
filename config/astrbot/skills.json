@@ -1,0 +1,22 @@
+{
+  "skills": {
+    "documents": {
+      "active": true
+    },
+    "pdf": {
+      "active": true
+    },
+    "skill-creator": {
+      "active": true
+    },
+    "spreadsheets": {
+      "active": true
+    },
+    "vision-read": {
+      "active": true
+    },
+    "novelai-painter": {
+      "active": true
+    }
+  }
+}
